@@ -8,3 +8,15 @@
 ## Screenshots
 
 ![alt text](Screenshots/LoginView.png "Login View") ![alt text](Screenshots/MapView.png "Map View") ![alt text](Screenshots/TableView(Redacted).png "Table View (Redacted)") ![alt text](Screenshots/EnterLinkView.png "Enter Link View") ![alt text](Screenshots/EnterLocationView.png "Enter Location View")
+
+## Instructions
+
+In order for the networking calls to work correctly in the app, you will need to do the following:
+
+Assign these variables in the ParseConstants.swift file:
+
+![alt text](Screenshots/ParseConstants.png "ParseConstants.swift")
+
+Enter a Facebook App ID in the Info.plist file:
+
+![alt text](Screenshots/Infoplist.png "Info.plist")
