@@ -14,8 +14,8 @@ extension ParseClient {
         
         /* URLs */
         static let ApiScheme = "https"
-        static let ApiHost = "api.parse.com"
-        static let ApiPath = "/1/classes/StudentLocation"
+        static let ApiHost = "parse.udacity.com"
+        static let ApiPath = "/parse/classes"
     }
     
     
