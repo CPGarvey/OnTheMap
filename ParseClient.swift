@@ -24,6 +24,7 @@ class ParseClient: NSObject {
         
             /* GUARD: Was there an error? */
             guard (error == nil) else {
+                
                 completionHandler(parsedResult: nil, errorString: "There was an error with your request: \(error)")
                 return
             }
@@ -74,7 +75,6 @@ class ParseClient: NSObject {
             }
             
         }
-        
         return components.URL!
     }
     

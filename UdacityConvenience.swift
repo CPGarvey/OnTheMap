@@ -79,6 +79,7 @@ extension UdacityClient {
             /* GUARD: Was there an error? */
             guard (errorString == nil) else {
                 completionHandler(success: false, errorString: errorString)
+                
                 return
             }
             

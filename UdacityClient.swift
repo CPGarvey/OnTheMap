@@ -76,6 +76,8 @@ class UdacityClient: NSObject {
         components.path = UdacityClient.Constants.ApiPath + (withPathExtension ?? "")
         
         return components.URL!
+        
+        
     }
     
     
