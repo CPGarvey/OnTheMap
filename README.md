@@ -1,5 +1,7 @@
 # On The Map
 
+CURRENTLY UNDERGOING REVISIONS TO MAKE SWIFT 3+ COMPLIANT!
+
 ## Overview
 
 - Multi-view Swift app that posts user-generated location information to a shared map and pulls the locations of fellow Nanodegree students with custom messages about themselves
